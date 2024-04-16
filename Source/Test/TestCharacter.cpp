@@ -127,6 +127,7 @@ void ATestCharacter::Look(const FInputActionValue& Value) {
 }
 
 void ATestCharacter::SwitchCamera() {
+	//Switch camera
 	if (HeadCamera->IsActive()) {
 		HeadCamera->SetActive(false);
 		FollowCamera->SetActive(true);
